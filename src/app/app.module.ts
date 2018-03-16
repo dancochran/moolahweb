@@ -10,6 +10,7 @@ import { TransactionMainComponent } from './transaction-main/transaction-main.co
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { AccountOpenCheckingComponent } from './account-open-checking/account-open-checking.component';
 import { CustomerDetailComponent } from './customer-detail/customer-detail.component';
+import { MainComponent } from './main/main.component';
 
 const appRoutes: Routes = [
   { path: 'transaction', component: TransactionMainComponent },
@@ -38,7 +39,8 @@ const appRoutes: Routes = [
     TransactionMainComponent,
     PageNotFoundComponent,
     AccountOpenCheckingComponent,
-    CustomerDetailComponent
+    CustomerDetailComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
