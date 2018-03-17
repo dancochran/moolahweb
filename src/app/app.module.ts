@@ -18,14 +18,8 @@ const appRoutes: Routes = [
   { path: 'account/open/checking', component: AccountOpenCheckingComponent },
   { path: 'customer', component: CustomerMainComponent },
   { path: 'customer/:id',      component: CustomerDetailComponent },
-  {
-    path: 'moolah',
-    component: AppComponent,
-    data: { title: 'Moolah v1.0' }
-  },
   { path: '',
-    redirectTo: '/moolah',
-    pathMatch: 'full'
+    component: MainComponent
   },
   { path: '**', component: PageNotFoundComponent }
 ];
